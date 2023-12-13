@@ -11,23 +11,25 @@ body {
 
 .top-container, .header {
     background-color: #1F2937;
+    padding: 12px 150px 0px 150px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    padding: 12px 150px 0px 150px;
 }
 
 .header ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style: none;
 }
 
 .header ul li a {
     text-decoration: none;
 }
-
 
 .hero-logo {
     font-size: 24px;    
@@ -46,5 +48,17 @@ body {
     color: #F9FAF8;
 }
 
-.header ul {
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+.hero-main {
+    flex: 0 1 470px;
+}
+
+.hero-pic {
+    width: 500px;
 }
