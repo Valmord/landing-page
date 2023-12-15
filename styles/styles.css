@@ -46,6 +46,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    line-height: 95%;
 }
 
 .top-container {
@@ -57,8 +58,60 @@ body {
 
 .hero-main {
     flex: 0 1 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .hero-pic {
     width: 500px;
+
+}
+
+.signup-button {
+    width: 130px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style: none;
+    padding: 6px 0px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 100px 150px;
+    text-align: center;
+}
+
+.info-header-text {
+    font-weight: 1000;
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.subtext-container {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+
+
+.bottom-container {
+    background-color: #E5E7EB;
+
+}
+
+
+.blue-square {
+    width: 160px;
+}
+
+
+.footer {
+    background-color: #3882F6;
 }
