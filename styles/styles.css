@@ -83,7 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 100px 150px;
+    padding: 50px 150px 100px;
     text-align: center;
 }
 
@@ -97,7 +97,18 @@ body {
 .subtext-container {
     display: flex;
     padding: 0;
+    justify-content: center;
     gap: 10px;
+}
+
+.subtext-image {
+    width: 150px;
+    font-weight: 510;
+    color: rgb(135, 135, 135);
+}
+
+.blue-square {
+    width: 100%;
 }
 
 
@@ -105,12 +116,6 @@ body {
     background-color: #E5E7EB;
 
 }
-
-
-.blue-square {
-    width: 160px;
-}
-
 
 .footer {
     background-color: #3882F6;
