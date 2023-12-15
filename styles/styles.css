@@ -140,23 +140,34 @@ body {
 .sign-up-footer {
     display: flex;
     background-color: #3882F6;
-    margin: 150px 150px;
-    padding: 50px 80px;
+    margin: 150px 200px;
+    padding: 40px 100px;
     border-radius: 8px;
-    color: #E5E7EB;
     justify-content: space-between;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 22px;
+    color: #F9FAF8;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
 }
 
 .signup-button-2 {
     background-color: #3882F6;
-    border-color: #E5E7EB;
+    border-color: #F9FAF8;
     padding: 0px 32px;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-weight: 700;
     border-radius: 8px;
     border-width: 2px;
     border-style: solid;
     font-size: 16px;
+    height: 34px;
+    align-self: center;
 }
 
 .footer {
